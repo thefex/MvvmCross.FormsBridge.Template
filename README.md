@@ -14,4 +14,4 @@ Load solution and test Droid/iOS projects.
 Take a note that all of the Fragment/ViewController/Activity presentation attributes works.
 
 # CAUTION
-This is a proof of concept. Not tested in production env. but my future apps will do so.
+This is a proof of concept. Not tested in production env. but my future apps will use that - so you might expect updates in future.
