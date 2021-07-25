@@ -11,7 +11,7 @@ Load solution and test Droid/iOS projects.
 2. Copy MvxFormsViewController/MvxFormsActivity/MvxFormsFragment classes to your projects - and add Xamarin.Forms.Forms.Init(..) like in sample apps.
 3. Use inhertaince - if you add MainPage to iOS project -> inherit from MvxFormsViewController<MainPage, MainPageViewModel>, in case of android use: MvxFormsFragment<MainPage, MainPageViewModel> / MvxFormsActivity<MainPage, MainPageViewModel>
 
-Take a note that all of the Fragment/ViewController/Activity presentation attributes works.
+Take a note that all of the Fragment/ViewController/Activity MvvmCross presentation attributes works. It just "packs" forms views into native fragments/activities so you do not lose MvvmCross powers.
 
 # CAUTION
 This is a proof of concept. Not tested in production env. but my future apps will use that - so you might expect updates in future.
