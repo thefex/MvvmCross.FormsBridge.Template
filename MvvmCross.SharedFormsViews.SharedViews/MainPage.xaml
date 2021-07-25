@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Coral"
+             xmlns:local="clr-namespace:MvvmCross.SharedFormsViews.SharedViews"
+             x:Class="MvvmCross.SharedFormsViews.SharedViews.MainPage">
+             
+    <StackLayout HorizontalOptions="Fill"
+                 VerticalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="{Binding Title}" 
+               FontSize="22"
+               TextColor="Black"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"  
+               />
+        
+        <Button Text="Tap to update text" 
+                Margin="12"
+                Command="{Binding UpdateText}"/>
+    </StackLayout>
+
+
+</ContentPage>
